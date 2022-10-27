@@ -1,0 +1,52 @@
+/* ------ custom css ----- */
+.menuNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  background: #141E30;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.menuList {
+  margin-top: 30px;
+}
+
+.menuItem {
+  display: inline;
+  list-style: none;
+  margin-left: 60px;
+  border-left: 5px;
+  border-color: #C9D6FF;
+}
+
+menuitem:hover {
+  background-color: #C9D6FF;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-left: 5px;
+  border-color: #C9D6FF;
+}
+a:hover {
+  border-radius: 4px;
+  color: red;
+}
+
+body {
+  background: #C9D6FF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
